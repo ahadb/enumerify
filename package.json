@@ -3,13 +3,29 @@
   "version": "1.0.0",
   "description": "A simple Enum type for JavaScript",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahadb/enumerify"
+  },
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
   "author": "Ahad Bokhari <ahadbokhari@gmail.com> (http://ahadb.com)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^26.5.0"
+  },
+  "keywords": [
+    "enum",
+    "enums",
+    "enumerify",
+    "vanilla",
+    "enumerated",
+    "string",
+    "numeric"
+  ],
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
   }
 }

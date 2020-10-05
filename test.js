@@ -1,7 +1,7 @@
 const Enumerify = require("./");
 
 test('returns a string enum for arrow directions', () => {
-  var result = new Enumerify(
+  const result = new Enumerify(
       {isStringEnum: true},
       {Up: "1", Down: "2", Left: "3", Right: "4"}
   );
@@ -21,7 +21,7 @@ test('returns a string enum for arrow directions', () => {
 
 test('values of string enum are a string', () => {
 
-  var result = new Enumerify(
+  const result = new Enumerify(
       {isStringEnum: true},
       {Up: "1", Down: "2", Left: "3", Right: "4"}
   );
@@ -39,7 +39,7 @@ test('values of string enum are a string', () => {
 });
 
 test('returns a numeric enum for arrow directions', () => {
-  var result = new Enumerify(
+  const result = new Enumerify(
       {isStringEnum: false},
       ["Up", "Down", "Left", "Right"]
   );
@@ -48,7 +48,7 @@ test('returns a numeric enum for arrow directions', () => {
 });
 
 test('values of numeric enum are numbers', () => {
-  var result = new Enumerify(
+  const result = new Enumerify(
       {isStringEnum: false},
       ["Up", "Down", "Left", "Right"]
   );

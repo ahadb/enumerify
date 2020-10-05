@@ -20,16 +20,16 @@
 
 module.exports = function Enumerify(options, enumDeclaration) {
 
-  var list;
+  let list;
 
   // adds inverted key-value pairs to the object
   if (options.isStringEnum) {
-    for (var key in enumDeclaration) {
+    for (const key in enumDeclaration) {
       enumDeclaration[enumDeclaration[key] = enumDeclaration[key]] = key;
     }
   } else {
-    for (var i in enumDeclaration) {
-      for (var k in arguments[1]) {
+    for (const i in enumDeclaration) {
+      for (const k in arguments[1]) {
         list = this[arguments[1][k]] = parseInt(k)
       }
       return list;
@@ -42,7 +42,7 @@ module.exports = function Enumerify(options, enumDeclaration) {
 };
 
 /**
- * Helper function to make an object immutable
+ * Helper function to make an object immutable, used from MDN
  *
  * @param: obj - Object
  *

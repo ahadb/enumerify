@@ -1,8 +1,8 @@
 const Enumerify = require("./");
 
-var stringEnum = new Enumerify({isStringEnum: true}, {Up: "1", Down: "2", Left: "3", Right: "4"});
+const stringEnum = new Enumerify({isStringEnum: true}, {Up: "1", Down: "2", Left: "3", Right: "4"});
 
-var numericEnum = new Enumerify({isStringEnum: false}, ["Up", "Down", "Left", "Right"]);
+const numericEnum = new Enumerify({isStringEnum: false}, ["Up", "Down", "Left", "Right"]);
 
 
 console.log(
