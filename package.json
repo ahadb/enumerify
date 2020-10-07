@@ -1,6 +1,6 @@
 {
   "name": "enumerify",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple Enum type for JavaScript",
   "main": "index.js",
   "repository": {
@@ -22,7 +22,14 @@
     "vanilla",
     "enumerated",
     "string",
-    "numeric"
+    "numeric",
+    "numeral",
+    "typeof",
+    "reverse lookup",
+    "node",
+    "browser",
+    "babel",
+    "mjs"
   ],
   "private": false,
   "engines": {

@@ -1,6 +1,6 @@
 ## Enumerify
 
-An enum type for JavaScript whose API simply exposes two types of enums: a string enum or a numeric enum
+An enum type for JavaScript whose API simply exposes two types of enums: a string enum or a numeric enum. Works in Node and the Browser.
 
 #### Usage
 
