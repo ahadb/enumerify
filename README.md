@@ -1,8 +1,8 @@
-## Enumerify
+# Enumerify
 
 An enum type for JavaScript whose API simply exposes two types of enums: a string enum or a numeric enum. Works in Node and the Browser.
 
-#### Usage
+## Usage
 
 `npm install --save-dev enumerify`
 
@@ -34,7 +34,7 @@ stringEnum.Up
 // => "1"
 ```
 
-#### Notes
+## Notes
 
 There are many ways to create enums in JavaScript, but for the most part you have to fake it and you will not get type safety :)
 
