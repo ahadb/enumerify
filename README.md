@@ -8,7 +8,7 @@ An enum type for JavaScript whose API simply exposes two types of enums: a strin
 
 You can create two types of enums:
 
-**Numeric Enums**:
+### Numeric Enums:
 
 ```javascript
 const Enumerify = require("enumerify");
@@ -20,7 +20,7 @@ numericEnum.Up
 // => 0
 ```
 
-**String Enums**:
+### String Enums:
 
 String enums values must be manually set for each member, and can be anything you want.
 
